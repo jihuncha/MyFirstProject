@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">MyFirstProject</string>
+
+    //맛집
+    <string name="title">A Good Place To Eat</string>
+    <string name="splash_continue">continue</string>
 </resources>

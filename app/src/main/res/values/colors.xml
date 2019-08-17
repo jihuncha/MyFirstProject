@@ -1,6 +1,240 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="primaryColor">#252525</color>
+    <color name="primaryColorDark">@android:color/black</color>
+    <color name="colorAccent">#ea670f</color>
+    <color name="color_ffffff">#ffffff</color>
+    <color name="color_fafafa">#fafafa</color>
+    <color name="color_eff3f8">#eff3f8</color>
+    <color name="color_919fae">#919fae</color>
+    <color name="color_0c4bff">#0c4bff</color>
+    <color name="color_fcfdfe">#fcfdfe</color>
+    <color name="color_19191b">#19191b</color>
+    <color name="color_d8dfe8">#d8dfe8</color>
+    <color name="color_cdd4dd">#cdd4dd</color>
+    <color name="color_000000">#000000</color>
+    <color name="color_1c273f">#1c273f</color>
+    <color name="color_2a2a2a">#2a2a2a</color>
+    <color name="color_47494e">#47494e</color>
+    <color name="color_20201f">#20201f</color>
+    <color name="color_1a1c1e">#1a1c1e</color>
+    <color name="color_171719">#171719</color>
+    <color name="color_808080">#808080</color>
+    <color name="color_080909">#080909</color>
+    <color name="color_ff4e00">#ff4e00</color>
+    <color name="color_35383b">#35383b</color>
+    <color name="color_3e4449">#3e4449</color>
+    <color name="color_1a1a1a">#1a1a1a</color>
+    <color name="color_4a9e84">#4a9e84</color>
+    <color name="color_2e2e2e">#2e2e2e</color>
+    <color name="color_2e2d32">#2e2d32</color>
+    <color name="color_d4d4d4">#d4d4d4</color>
+    <color name="color_1a1412">#1a1412</color>
+    <color name="color_b1b1b1">#b1b1b1</color>
+    <color name="color_585858">#585858</color>
+    <color name="color_604f44">#604f44</color>
+    <color name="color_f1b38a">#f1b38a</color>
+    <color name="color_404040">#404040</color>
+    <color name="color_efeded">#efeded</color>
+    <color name="color_232323">#232323</color>
+    <color name="color_cbc9c9">#cbc9c9</color>
+    <color name="color_e68f3f">#e68f3f</color>
+    <color name="color_fc3b0f">#fc3b0f</color>
+    <color name="color_696b72">#696b72</color>
+    <color name="color_434547">#434547</color>
+    <color name="color_393b3c">#393b3c</color>
+    <color name="color_e77c2c">#e77c2c</color>
+    <color name="color_c56a25">#c56a25</color>
+    <color name="color_606266">#606266</color>
+    <color name="color_8ea670f">#8ea670</color>
+    <color name="color_c2c4c9">#c2c4c9</color>
+    <color name="color_e98b24">#e98b24</color>
+    <color name="color_52bd46">#52bd46</color>
+    <color name="color_063401">#063401</color>
+    <color name="color_360a00">#360a00</color>
+    <color name="color_ff3608">#ff3608</color>
+    <color name="color_324449">#324449</color>
+    <color name="color_232325">#232325</color>
+    <color name="color_505051">#505051</color>
+    <color name="color_5e2512">#5e2512</color>
+    <color name="color_424242">#424242</color>
+    <color name="color_divider">#dbdfe1</color>
+    <color name="color_divider2">#cbcbcb</color>
+    <color name="color_fc2c4c09">#fc2c4c09</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_bdbdbd">#bdbdbd</color>
+    <color name="color_330404">#330404</color>
+    <color name="color_c3c3c3">#c3c3c3</color>
+    <color name="color_353537">#353537</color>
+    <color name="color_4e4e4e">#4e4e4e</color>
+    <color name="color_28282a">#28282a</color>
+    <color name="color_909090">#909090</color>
+    <color name="color_313438">#313438</color>
+    <color name="color_aeaeae">#aeaeae</color>
+    <color name="color_6b3d28">#6b3d28</color>
+    <color name="color_747c82">#747c82</color>
+    <color name="color_3e4247">#3e4247</color>
+    <color name="color_70787d">#70787d</color>
+    <color name="color_070809">#070809</color>
+    <color name="color_767c82">#767c82</color>
+    <color name="color_74787c">#74787c</color>
+    <color name="color_cccccc">#cccccc</color>
+    <color name="color_fc4a24">#fc4a24</color>
+    <color name="color_313335">#313335</color>
+    <color name="color_3c3e40">#3c3e40</color>
+    <color name="color_b2b2b2">#b2b2b2</color>
+    <color name="color_ff0018">#ff0018</color>
+    <color name="color_a2a6aa">#a2a6aa</color>
+    <color name="color_cc4729">#cc4729</color>
+    <color name="color_2e3033">#2e3033</color>
+
+    <!-- 투명도 조정 000000 -->
+    <color name="color_00000000">#00000000</color> <!-- Opacity : 0% -->
+    <color name="color_1e000000">#1e000000</color> <!-- Opacity : 11 ~ 12% -->
+    <color name="color_3d000000">#3d000000</color> <!-- Opacity : 24% -->
+    <color name="color_4d000000">#4d000000</color> <!-- Opacity : 30% -->
+    <color name="color_66000000">#66000000</color> <!-- Opacity : 40% -->
+    <color name="color_99000000">#99000000</color> <!-- Opacity : 60% -->
+    <color name="color_A1000000">#A1000000</color> <!-- Opacity : 63% -->
+    <color name="color_B3000000">#B3000000</color> <!-- Opacity : 70% -->
+    <color name="color_80000000">#CC000000</color> <!-- Opacity : 80% -->
+    <color name="color_E6000000">#E6000000</color> <!-- Opacity : 90% -->
+    <color name="color_FF000000">#FF000000</color> <!-- Opacity : 100% -->
+
+    <!-- 투명도 조정 ffffff -->
+    <color name="color_00ffffff">#00ffffff</color> <!-- Opacity : 0% -->
+    <color name="color_1Affffff">#1Affffff</color> <!-- Opacity : 10% -->
+    <color name="color_33ffffff">#33ffffff</color> <!-- Opacity : 20% -->
+    <color name="color_80ffffff">#80ffffff</color> <!-- Opacity : 50% -->
+    <color name="color_99ffffff">#99ffffff</color> <!-- Opacity : 60% -->
+    <color name="color_B3ffffff">#B3ffffff</color> <!-- Opacity : 70% -->
+    <color name="color_CCffffff">#CCffffff</color> <!-- Opacity : 80% -->
+    <color name="color_A1ffffff">#A1ffffff</color> <!-- Opacity : 63% -->
+    <color name="color_E6ffffff">#E6ffffff</color> <!-- Opacity : 90% -->
+    <color name="color_F7ffffff">#F7ffffff</color> <!-- Opacity : 97% -->
+    <color name="color_FFffffff">#FFffffff</color> <!-- Opacity : 100% -->
+
+    <!-- 투명도 조정 353535 -->
+    <color name="color_B3353535">#B3353535</color> <!-- Opacity : 70% -->
+    <color name="color_26353535">#26353535</color> <!-- Opacity : 15% -->
+    <color name="color_929292">#929292</color>
+    <color name="color_53575a">#53575a</color>
+    <color name="color_202021">#202021</color>
+    <color name="color_ea670f">#ea670f</color>
+    <color name="color_ff6341">#ff6341</color>
+
+    <color name="color_bc6b29">#bc6b29</color>
+
+    <color name="transparent">#00000000</color>
+
+    <!-- bg : #171719 -->
+    <drawable name="common_button_a_type_disable_background_color">@color/color_2f3235</drawable>
+    <drawable name="common_button_a_type_press_background_color">#3e4449</drawable>
+    <drawable name="common_button_a_type_normal_background_color">@color/color_2f3235</drawable>
+
+    <drawable name="common_button_b_type_disable_background_color">@color/color_1a1c1e</drawable>
+    <drawable name="common_button_b_type_press_background_color">#3e4449</drawable>
+    <drawable name="common_button_b_type_normal_background_color">@color/color_1a1c1e</drawable>
+
+    <color name="color_btn_disable">#171719</color>
+    <color name="color_btn_normal">#171719</color>
+    <color name="color_pressed">#3e4449</color>
+
+    <!-- Title bg -->
+    <color name="color_252525">#252525</color>
+
+    <!-- btn_confirm -->
+    <color name="color_btn_confirm">#171719</color>
+
+    <!-- btn_cancel -->
+    <color name="color_btn_cancel">#53575a</color>
+
+    <!-- 이용약관 동의/동의안함 버튼 컬러 -->
+    <color name="color_agree_btn_cancel_normal">#202021</color>
+    <color name="color_agree_btn_cancel_selected">#171719</color>
+    <color name="color_agree_btn_confirm_normal">#171719</color>
+    <color name="color_agree_btn_confirm_selected">#3e4449</color>
+
+    <!-- Sub title -->
+    <color name="sub_title_txt_color">#b1b2b2</color>
+    <color name="sub_title_bg_color">#3b3d40</color>
+
+    <!-- Intro Bottom BackgroundColor -->
+    <color name="color_intro_bottom_bg">#ff6341</color>
+
+    <color name="background_a">#303133</color>
+
+    <color name="contacts_search_text_hint_color">#ff959595</color>
+    <color name="contacts_search_text_color">#ff191919</color>
+    <color name="color_ECEAE7">#ECEAE7</color>
+    <color name="color_FFFFFF">#FFFFFF</color>
+    <color name="color_808186">#808186</color>
+    <color name="color_B6B6B7">#B6B6B7</color>
+    <color name="color_CFCECB">#CFCECB</color>
+    <color name="color_F94B47">#F94B47</color>
+    <color name="color_9d9d9d">#9d9d9d</color>
+    <color name="color_5f5f5f">#5f5f5f</color>
+    <color name="color_eae9e9">#eae9e9</color>
+    <color name="color_bfbfbf">#bfbfbf</color>
+    <color name="color_bcbcbc">#bcbcbc</color>
+    <color name="color_4a4c5b">#4a4c5b</color>
+    <color name="color_ff6d5a">#ff6d5a</color>
+    <color name="color_fe6345">#fe6345</color>
+    <color name="color_7c7c7c">#7c7c7c</color>
+    <color name="color_4c4c55">#4c4c55</color>
+    <color name="color_3760c9">#3760c9</color>
+    <color name="color_d00b14">#d00b14</color>
+
+    <color name="color_tab_pressed">@color/color_424242</color>
+    <color name="color_tab_selected">@color/color_2a2a2a</color>
+    <color name="color_tab_normal">@color/color_2a2a2a</color>
+
+    <drawable name="list_item_press">#604f44</drawable>
+    <drawable name="list_item_normal">#2a2a2a</drawable>
+
+    <!-- 2017.09.15 - 강태구 - 하드키 포커스 -->
+    <drawable name="list_item_press_new">#604f44</drawable>
+    <drawable name="list_item_normal_new">#2a2a2a</drawable>
+    <drawable name="list_group_press_new">#604f44</drawable>
+    <drawable name="list_group_normal_new">#20201f</drawable>
+    <!-- 여기까지 -->
+
+    <drawable name="group_ui_btn_call_normal">#1e1f21</drawable>
+    <drawable name="group_ui_btn_call_press">#696b72</drawable>
+
+    <drawable name="option_press">#ea670f</drawable>
+    <drawable name="option_normal">#414144</drawable>
+
+    <drawable name="color_groupcall_normal">#232325</drawable>
+    <drawable name="color_groupcall_press">#3e4449</drawable>
+
+    <!-- 채팅 대화방 이미지 갤러리 -->
+    <drawable name="image_list_bottom_button_normal">#ff171719</drawable>
+    <drawable name="image_list_bottom_button_press">#ff3e4449</drawable>
+    <drawable name="popup_bg_select">#ff604f44</drawable>
+    <drawable name="popup_bg_normal">#ffffffff</drawable>
+
+    <color name="color_item_matched_text_color">#ffE84D37</color>
+
+    <color name="rfab__color_text_label_item">#777777</color>
+    <color name="rfab__color_background_normal">#ffffff</color>
+    <color name="rfab__color_background_pressed">#dddddd</color>
+
+    <color name="rfab__color_frame">#ffffff</color>
+    <color name="rfab__color_shadow">#c6c6c6</color>
+
+    <color name="color_0f9aea">#0f9aea</color>
+
+    <color name="color_CC24272a">#CC24272a</color>
+    <color name="color_24272a">#24272a</color>
+    <color name="color_b7b7b7">#b7b7b7</color>
+    <color name="color_2f3235">#2f3235</color>
+    <color name="color_9e3c27">#9e3c27</color>
+    <color name="color_696969">#696969</color>
+    <color name="color_1e3f9b">#1e3f9b</color>
+    <color name="color_3e59ff">#3e59ff</color>
+    <color name="color_3e70ff">#3e70ff</color>
+    <color name="color_44474a">#44474a</color>
+
+    <color name="color_191c273f">#191c273f</color>
 </resources>
