@@ -124,6 +124,35 @@ public class ChooseAuthActivity extends AppCompatActivity implements View.OnClic
 
             // Surface the result to your user in an appropriate way.
             PopupManager.getInstance(mContext).showToast(toastMessage);
+        } else if (requestCode == APP_REQUEST_CODE_EMAIL) {
+            // confirm that this response matches your request
+            AccountKitLoginResult loginResult = data.getParcelableExtra(AccountKitLoginResult.RESULT_KEY);
+            String toastMessage;
+
+            if (loginResult.getError() != null) {
+                toastMessage = loginResult.getError().getErrorType().getMessage();
+//                showErrorActivity(loginResult.getError());
+            } else if (loginResult.wasCancelled()) {
+                toastMessage = "Login Cancelled";
+            } else {
+                if (loginResult.getAccessToken() != null) {
+                    toastMessage = "Success:" + loginResult.getAccessToken().getAccountId();
+                } else {
+                    toastMessage = String.format(
+                            "Success:%s...",
+                            loginResult.getAuthorizationCode().substring(0,10));
+                }
+
+                // If you have an authorization code, retrieve it from
+                // loginResult.getAuthorizationCode()
+                // and pass it to your server and exchange it for an access token.
+
+                // Success! Start your next activity...
+                goToMainHomeActivity();
+            }
+
+            // Surface the result to your user in an appropriate way.
+            PopupManager.getInstance(mContext).showToast(toastMessage);
         }
     }
 
