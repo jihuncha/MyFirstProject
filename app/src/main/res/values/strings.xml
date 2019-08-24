@@ -2,7 +2,7 @@
     <!-- facebook -->
     <string name="app_name">MyFirstProject</string>
     <string name="FACEBOOK_APP_ID">378599372854051</string>
-    <string name="ACCOUNT_KIT_CLIENT_TOKEN">[ACCOUNT_KIT_CLIENT_TOKEN]</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">fe9efc2b9a1bb85ba7638d6f393b2657</string>
 
     <!-- 맛집 -->
     <string name="title">A Good Place To Eat</string>
